@@ -67,7 +67,7 @@ header {
 
  }
 
- #banner {
+ #banner{
     width: 100%;
     background-image:url("../imgs/115a1337f9f83840c6c7ba1d4e69f462.jpg");
     background-repeat: no-repeat;
@@ -75,8 +75,9 @@ header {
     height: 400px;
     position: relative;
  }
-#txt-banner {
-    position: absolute;
+
+#txt-banner{
+    position:absolute;
     top: 10%;
     right: 10%;
 }
