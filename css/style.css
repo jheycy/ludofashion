@@ -106,7 +106,7 @@ header {
     gap: 1rem ;
 }
 
-..card {
+.card {
     border: 1px solid var(--cor-secundaria);
     border-radius: 8px;
     background-color: var(--cor-secundaria);
@@ -123,8 +123,6 @@ header {
     text-align:center;
 }
 
-
-login
 
 .login {
 
@@ -147,12 +145,11 @@ login
 }
     
 .container {
-    ...
     position: relative;
   }
   
   
-  }
+  
 
 
     
