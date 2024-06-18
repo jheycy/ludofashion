@@ -7,6 +7,7 @@
     --preto:black;
 
 }
+
 *{
     padding: 0;
     margin: 0;
@@ -19,11 +20,9 @@ header {
     padding:1rem;
     align-items:center;
     p { font-family: Arial, Helvetica, sans-serif; }
+}
 
     
-
-
-}
 
 #form-buscar{
     flex-grow: 1 ;
@@ -31,6 +30,7 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
+
 }
 
 #buscar {
@@ -69,6 +69,7 @@ header {
     background-color: var(--cor-tres);
     padding: 0.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: ;
  }
 
 
@@ -148,9 +149,40 @@ header {
     position: relative;
   }
   
+  .sobrenos{
+    font-size: 25px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+margin: 1%;
+  }
   
+  .textsobre
+   {
+    font-size: 20px;
+   display: grid;
+   grid-template-columns : repeat(2,1fr);
+   margin: 2%;
+   border:10%;
+   }
   
+   .img{
+    display: flex;
+   align-items: center;
+   margin: 20px 70px;
+   flex-direction: column;
+   }
 
+   .img div {
+    margin-top: 20px;
+   }
+   .img img {
+
+    max-width: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+   
+
+   }
 
     
 
