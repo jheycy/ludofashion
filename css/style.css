@@ -189,7 +189,24 @@ margin: 1%;
     object-fit: cover;
    
 
+   
+
+
    }
+.card-duvidas{
+   
+    border-radius:40px;
+    background-color: var(--cor-primaria);
+    padding: 0.4rem;
+    width: 40%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto; 
+    grid-template-columns: repeat(5, 1fr);
+}
+
 
     
-
+ 
