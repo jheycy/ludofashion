@@ -187,14 +187,15 @@ margin: 1%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     object-fit: cover;
-   
-
-   
-
-
    }
+
+  .logo h1{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+  }
 .card-duvidas{
-   
+
     border-radius:40px;
     background-color: var(--cor-primaria);
     padding: 0.4rem;
@@ -204,9 +205,14 @@ margin: 1%;
     justify-content: center;
     text-align: center;
     width: auto; 
-    grid-template-columns: repeat(5, 1fr);
+    
+    grid-template-columns: repeat(2, 1fr);
+    
 }
 
+.card-d{
+    margin-top: 20px;
+}
 
     
  
