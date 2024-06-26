@@ -217,7 +217,8 @@ margin: 1%;
 
     
 .card-d2{
-    border:var(--cor-primaria);
+    background-color: var(--cor-primaria);
+    border: 1px solid #ccc;
     border-radius: 8px;
     margin: 10px;
     padding: 10px;
