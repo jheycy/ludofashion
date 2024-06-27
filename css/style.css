@@ -13,7 +13,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color:black;
+
 }
+
+
+
 
 header {
     background-color: var(--cor-primaria);
@@ -187,26 +192,65 @@ margin: 1%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     object-fit: cover;
-   
-
-   
 
 
    }
+
+   
 .card-duvidas{
    
-    border-radius:40px;
+    padding: 30px;
+    margin: 30px 20px;
     background-color: var(--cor-primaria);
-    padding: 0.4rem;
-    width: 40%;
-    max-width: 500px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: auto; 
-    grid-template-columns: repeat(5, 1fr);
-}
-
+    border-radius: 50px;
+    width: 1000px;
+    
 
     
- 
+
+
+ }
+
+ .img2{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+    }
+
+ .titulo2{
+    margin-left: 30px;
+    font-size: 35px;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: black;
+
+
+ }
+
+ .duvidas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+ }
+
+ .btn-fale{
+    background-color: var(--cor-primaria);
+    color: var(--BRANCO);
+    border-radius: 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 5px;
+    color:black;
+
+ }
