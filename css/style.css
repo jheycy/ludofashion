@@ -195,18 +195,21 @@ margin: 1%;
     margin-top: 20px;
     padding: 1em 2em  2em;
   }
+  .duvidas{
+        margin: 1rem;
+  }
 .card-duvidas{
 
-    border-radius:40px;
+    border-radius:50px;
     background-color: var(--cor-primaria);
-    padding: 0.4rem;
+    padding: 0.3rem;
     width: 40%;
     max-width: 500px;
     display: flex;
     justify-content: center;
     text-align: center;
     width: auto; 
-    
+    margin: 0.3rem;
     grid-template-columns: repeat(2, 1fr);
     
 }
@@ -234,3 +237,7 @@ margin: 1%;
     display: none;
     margin-top: 10px;
 }
+
+
+
+
