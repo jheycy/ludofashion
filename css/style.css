@@ -144,7 +144,7 @@ nav a:first-child {
     text-align: center;
 }
 
-
+/*LOGIN*/
 .login {
     justify-content: center;
     display: flex;
@@ -240,7 +240,7 @@ nav a:first-child {
 
 
 
-
+/*SOBRE*/
 
 .sobrenos {
     font-size: 25px;
@@ -282,6 +282,7 @@ nav a:first-child {
 
 }
 
+/*DUVIDAS*/
 
 .card-duvidas {
 
