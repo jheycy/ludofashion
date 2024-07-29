@@ -29,6 +29,7 @@ header {
 
 header p {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /* Search form */
@@ -545,30 +546,60 @@ text-align: center;
 /* Media queries for responsiveness */
 @media (max-width: 450px) {
     header {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
+        font-size:10px;
     }
 
     #form-buscar {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start; /* Alinha itens à esquerda */
+        margin-left: 0.1rem;
     }
 
     #buscar {
-        width: 100%;
-        margin-bottom: 0.2rem; /* Espaço entre o campo de busca e os ícones */
+        width: 20%;
+        margin-bottom: 0.1rem; /* Espaço entre o campo de busca e os ícones */
     }
 
     .icon-link {
-        margin: 0.2rem 0; /* Espaço entre os ícones */
+        display: none;
     }
 
     #btn-buscar {
         margin-top: 0.2rem; /* Espaço acima do botão de busca */
+        
     }
 
+    .menu{
+        background-color:#f464c3;
+        height:100vh;
+        position: fixed;
+        top:0;
+        right: 0%;
+        z-index: 999999;
+        width:70%;
+        
+    }
+
+    .menu div ul{
+        text-align: right;
+    }
+
+    .menu div ul li a{
+        color: aliceblue;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px 4%;
+        z-index:999999 ;
+        flex-direction: row-reverse;
+    }
+.menu .btn-fechar img{
+
+    font-size: 200px;
+}
     nav {
-        grid-template-columns: 2fr;
+        flex-direction:row;
     }
 
     .card-container {
