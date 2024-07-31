@@ -503,8 +503,47 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 /* meu perfil*/
+.card5{
+    background-color: var(--cor-primaria);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    
 
+}
 
+.icons1{
+    display: flex;
+    flex-direction: column;
+}
+.text-icons{
+    color: black;
+}
+.text-icons p{
+    color: black;
+}
+
+.logo2 h1 {
+    color:black;
+    display: flex;
+    margin-left: 30%;
+    margin-top: auto;
+    
+}
+.content-mp{
+
+    background-color: var(--cor-primaria);
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    margin-left: 200px;
+    display: flex;
+    
+}
+.corpo2{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* Media queries for responsiveness */
